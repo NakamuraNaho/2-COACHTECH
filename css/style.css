@@ -22,215 +22,56 @@ time, mark, audio, video {
     background:transparent;
 }
 
-body {
-    line-height:1;
+/* header */
+.header{
+  background-color: black;
+  color: white
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-    display:block;
+h1{
+  padding: 10px;
+  padding-left: 30px;
 }
-
-nav ul {
-    list-style:none;
-}
-
-blockquote, q {
-    quotes:none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
-}
-
-a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
-
-/* change colours to suit your needs */
-ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
-}
-
-/* change colours to suit your needs */
-mark {
-    background-color:#ff9;
-    color:#000;
-    font-style:italic;
-    font-weight:bold;
-}
-
-del {
-    text-decoration: line-through;
-}
-
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
-}
-
-table {
-    border-collapse:collapse;
-    border-spacing:0;
-}
-
-/* change border colour to suit your needs */
-hr {
-    display:block;
-    height:1px;
-    border:0;  
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
-}
-
-input, select {
-    vertical-align:middle;
-}
-
-/* その他のスタイルは以下に記述していきます */
-
-/* 以下header */
-.headeritself{
-  color: white;
-  height: 80px;
-  background: #000;
-}
-
 .header-wrap{
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  line-height: 70px;
-
 }
 
-.headerh1{
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: 35px;
-  color: #f2f2f2;
+ul{
+  list-style: none;
+  
+}
+.header-nav ul{
+  display: flex;
+  color:white
   
 }
 
-.hraderul ul{
-  display: flex;
+li{
+  padding: 10px 20px;
+}
+.header-nav a {
+  color: azure;
+  text-decoration: none;
 }
 
-.hraderul li{
-  margin-right: 35px;
-  font-size: 16px;
+/* 機械では出来ない仕事を */
+
+img{
+  max-width: 100%;
+  height: auto;
 }
 
-.hraderul a{
-  color: #f2f2f2;
-
-}
-
-/* 以下mainビジュアル*/
-#estra {
-  height: 600px;
-  background: url(../img/img/bg1.jpg)no-repeat; 
+.img{
   position: relative;
-  background-size: cover;
-  background-position: center;
+}
+
+.img .sention-title{
+   position: absolute;
+   top: 15px;
+   color:white;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 2.5em;
+
   
-}
-
-#estra p1{
-  color: #cccccc;
-  font-size: 60px;
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-style: italic;
-  font-weight: bold;
-  color: #ccc;
-  line-height: 1;
-  
-}
-/* main 企業概要 */
-
-#about {
-  width: 80%;
-  margin: 0 auto 50px;
-}
-
-#about .sectiontitle {
-  font-size: 30px;
-  font-weight: bold;
-  margin: 30px 0;
-  text-align: center;
-
-}
-
-.about-wrap{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.about-right h3,
-.about-right p {
-  margin-bottom: 15px;
-}
-
-.about-left,
-.about-right {
-  width: 45%;
-}
-
-.about-right ol {
-  list-style-position: inside;
-}
-
-.about-left img{
-  display: block;
-  width: 100%;
-}
-
-/*　以下service */
-
-#service {
-  background: url(../img/img/bg3.jpg) no-repeat;
-  background-size: cover;
-  
-}
-
-.section-title{
-  padding: 20px;
-  font-size: 30px;
-  color: #f2f2f2;
-  text-align: center;
-  font-weight: bold;
-}
-
-.service-wrap{
-  display: flex;
-  justify-content: space-around;
-
-}
-
-.businessABC{
-  margin: 10px 20px;
-  width: 80%;
-  background-color: aliceblue;
-  text-align: center;
-  padding: 20px;
-
-}
-
-.businessABC img,p,h4{
-  margin-bottom: 15px;
-
-}
