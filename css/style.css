@@ -100,4 +100,36 @@ table,tr,td{
   color: white;  
 }
 
+/* お客さまのために進化するー*/
+.section-wrap{
+  background-color: black;
+  color: white; 
+  height: 400px;
+}
+
+
+h{
+  font-weight: bold;
+  font-size: 1.5em;
+ 
+}
+
+.left{
+   padding-top: 150px; 
+   padding-left: 300px;
+
+}
+
+p{
+  
+}
+
+a{
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
   
