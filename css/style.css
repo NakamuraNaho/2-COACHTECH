@@ -196,6 +196,10 @@ span:nth-of-type(3){
   align-items: center;
 }
 
+.item1-2{
+  padding-left: 1vw;
+}
+
 .flex-item2 p{
   padding: 3vh 2vw;
 }
